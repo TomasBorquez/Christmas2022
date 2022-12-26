@@ -55,6 +55,10 @@ export const TypeAnimation = ({ name, country }: props) => {
   } else if (name === 'santo') {
     TEXTS.pop();
     TEXTS.push('rust player 🧓');
+    } else if (name === 'panadero') {
+    TEXTS.pop();
+    TEXTS.push('🍞🥖🥐🍞🥖🥐');
+    TEXTS.push('panadeirou al que le gusta bananeiro 🍌');
   }
 
   const [index, setIndex] = useState(0);
